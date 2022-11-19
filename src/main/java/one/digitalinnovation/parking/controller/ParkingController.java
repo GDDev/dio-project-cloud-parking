@@ -12,7 +12,7 @@ import one.digitalinnovation.parking.model.Parking;
 import one.digitalinnovation.parking.service.ParkingService;
 
 @RestController
-@RequestMapping("/parking")
+@RequestMapping("/")
 public class ParkingController {
     
     private final ParkingService parkingService;
